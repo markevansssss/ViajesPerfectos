@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Agency - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body { background-color: white; color: black; }
+        .bg-light, .bg-primary, .bg-dark { background-color: black !important; }
+        .text-white { color: white !important; }
+        .btn-primary { background-color: black; border-color: black; }
+        .btn-primary:hover { background-color: grey; border-color: grey; }
+        .navbar-light .navbar-nav .nav-link, .navbar-brand { color: white; }
+        .card { border-color: black; }
+        .navbar-brand{color: white;}
+        .card { border-color: black; background-color: white !important; }
+        .card-body{background-color: white !important;}
+
+        img {
+          filter: grayscale(100%);
+          max-height: 500px; /* Adjust height as needed */
+          object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">ViajesPerfectos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="destinos.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Styles to keep it in black and white -->
+    <style>
+      .carousel-inner img {
+          filter: grayscale(100%);
+          max-height: 500px; /* Adjust height as needed */
+          object-fit: cover;
+      }
+    </style>
+
+    <!-- Destinations Section -->
+    <section id="destinos" class="container py-5">
+        <h2 class="text-center mb-4">Popular Destinations</h2>
+        <div class="row">
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="img/slider1.jpg" class="card-img-top" alt="Beach">
+                  <div class="card-body">
+                      <h5 class="card-title">Paradise Beaches</h5>
+                      <p class="card-text">Relax in the crystal-clear waters of the best tropical destinations.</p>
+                      <a href="#" class="btn btn-primary">More Info</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4"> 
+            <div class="card"> 
+              <img src="img/ciudad.jpg" class="card-img-top" alt="City"> 
+                <div class="card-body"> 
+                  <h5 class="card-title">Urban Getaways</h5> 
+                  <p class="card-text">Discover the most vibrant cities and their cultures.</p> 
+                  <a href="#" class="btn btn-primary">More Info</a> 
+                </div> 
+              </div> 
+            </div>
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="img/montana.jpg" class="card-img-top" alt="Mountains">
+                  <div class="card-body">
+                      <h5 class="card-title">Andean Adventure</h5>
+                      <p class="card-text">Explore the majesty of the Andes and its unforgettable landscapes.</p>
+                      <a href="#" class="btn btn-primary">More Info</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="img/safari.jpg" class="card-img-top" alt="Safari">
+                  <div class="card-body">
+                      <h5 class="card-title">Safari in Africa</h5>
+                      <p class="card-text">Experience the unique safari in the African savannah.</p>
+                      <a href="#" class="btn btn-primary">More Info</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="img/auroras.jpg" class="card-img-top" alt="Northern Lights">
+                  <div class="card-body">
+                      <h5 class="card-title">Northern Lights</h5>
+                      <p class="card-text">Discover the magic of the northern lights on an unforgettable journey.</p>
+                      <a href="#" class="btn btn-primary">More Info</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="img/venecia.jpg" class="card-img-top" alt="Venice">
+                  <div class="card-body">
+                      <h5 class="card-title">Venice Charm</h5>
+                      <p class="card-text">Sail through the canals of Venice and experience its romantic charm.</p>
+                      <a href="#" class="btn btn-primary">More Info</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+                <img src="img/paris.jpg" class="card-img-top" alt="Paris">
+                <div class="card-body">
+                    <h5 class="card-title">Lights of Paris</h5>
+                    <p class="card-text">Discover the magic of the Eiffel Tower and Parisian attractions.</p>
+                    <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/roma.jpg" class="card-img-top" alt="Rome">
+                <div class="card-body">
+                    <h5 class="card-title">History in Rome</h5>
+                    <p class="card-text">Explore the Coliseum and dive into ancient Rome.</p>
+                    <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/londres.jpg" class="card-img-top" alt="London">
+                <div class="card-body">
+                    <h5 class="card-title">Adventure in London</h5>
+                    <p class="card-text">Tour Big Ben and experience the vibrant life of London.</p>
+                    <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/nueva-york.jpg" class="card-img-top" alt="New York">
+                <div class="card-body">
+                    <h5 class="card-title">Dream in New York</h5>
+                    <p class="card-text">Experience the city that never sleeps and its iconic skyscrapers.</p>
+                    <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/tokio.jpg" class="card-img-top" alt="Tokyo">
+                <div class="card-body">
+                    <h5 class="card-title">Futurism in Tokyo</h5>
+                    <p class="card-text">Discover the blend of tradition and technology in Japan.</p>
+                    <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/rio.jpg" class="card-img-top" alt="Rio de Janeiro">
+                <div class="card-body">
+                    <h5 class="card-title">Rhythm in Rio</h5>
+                    <p class="card-text">Dance to the carnival beat and relax on Copacabana beach.</p>
+                    <a href="#" class="btn btn-primary">More Info</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="container py-5">
+        <h2 class="text-center mb-4">Contact</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Name</label>
+                <input type="text" class="form-control" id="nombre" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Message</label>
+                <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center py-3 text-white">
+        <p>&copy; 2025 ViajesPerfectos. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+f

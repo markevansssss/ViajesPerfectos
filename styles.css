@@ -1,0 +1,246 @@
+.center{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.boton-personalizado {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+
+
+
+.boton-personalizado:hover {
+    background-color: rgb(246, 246, 136);
+    color: black;
+    border-color: black;
+}
+
+
+.titulo{
+    font-size: 100px ;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo1{
+    margin-top: 50px;
+}
+
+.divlass{
+    margin-bottom: 50px;
+}
+
+.calendar{
+    justify-content: center;
+}
+
+.tamaño{
+    width: 50%;
+}
+
+.card-header{
+    background-color: rgb(32, 32, 32) !important;
+}
+
+.card-body{
+    background-color: rgb(246, 246, 136) !important;
+}
+
+.card-title{
+    color: rgb(0, 0, 0) !important;
+}
+
+.card-text{
+    color: rgb(0, 0, 0) !important;
+}
+
+.carousel-item img {
+    height: 600px; /* Define la altura deseada */
+    object-fit: cover; /* Ajusta cómo se recorta la imagen */
+  }
+
+
+  .navbar {
+    background-color: #000; /* Fondo negro */
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(246, 246, 136) !important; /* Amarillo constante */
+    text-transform: uppercase; /* Opcional: mayúsculas */
+    text-decoration: none; /* Sin subrayado */
+  }
+
+  .navbar-nav .nav-link {
+    color: #FFF !important; /* Blanco constante */
+    font-weight: 500;
+    text-transform: uppercase; /* Opcional: texto en mayúsculas */
+  }
+
+  .navbar-toggler {
+    border-color: #FFC107; /* Borde amarillo */
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='%23FFC107' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+
+  .calendar-container {
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .calendar-container h2 {
+    color: #000;
+  }
+
+  .btn-reserve {
+    background-color: #FFC107;
+    border: none;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .btn-reserve:hover {
+    background-color: #e0a800;
+  }
+
+
+  .services-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+  }
+
+  .services-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .service-card {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .service-card .icon-container {
+    font-size: 3rem;
+    color: #FFC107;
+    margin-bottom: 20px;
+  }
+
+  .service-card h5 {
+    color: #333;
+    font-weight: bold;
+  }
+
+  .service-card p {
+    color: #555;
+  }
+
+  .reservation-form-container {
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+
+  .form-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  .btn-reserve {
+    background-color: #FFC107;
+    border: none;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .btn-reserve:hover {
+    background-color: #e0a800;
+  }
+
+  .form-label {
+    font-weight: bold;
+  }
+
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columnas (una por cada día de la semana) */
+    grid-gap: 10px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .calendar .day {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .calendar .day:hover {
+    background-color: #ddd;
+  }
+
+  /* Marca los días disponibles */
+  .available {
+    background-color: #28a745; /* Color verde para días disponibles */
+    color: white;
+    justify-content: ;
+  }
+
+  /* Marca los días ocupados */
+  .unavailable {
+    background-color: #dc3545; /* Color rojo para días no disponibles */
+    color: white;
+  }
+
+  /* Estilo del botón */
+  .btn-reserve {
+    background-color: #FFC107;
+    border: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+  }
+
+  .btn-reserve:hover {
+    background-color: #e0a800;
+  }
